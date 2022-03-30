@@ -13,7 +13,7 @@ import { Navigation } from "swiper";
 
 
 const Slider = () => {
-    const {slider,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo,sliderArrowRight,sliderArrowIcon} = styles;
+    const {slider,sliderImg,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo,sliderArrowRight,sliderArrowIcon} = styles;
     return (
         <section className={slider}>
             <Swiper navigation={true} loop={true} modules={[Navigation]} className="mySwiper">
@@ -27,7 +27,7 @@ const Slider = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={sliderImage} alt=""/>
+                        <img className={sliderImg} src={sliderImage} alt=""/>
                     </div>
 
                 </div></SwiperSlide>

@@ -8,7 +8,7 @@ import Logo from '../../assets/logo.png'
 import {Link} from 'react-router-dom'
 
 const Header = ({isCart,setIsCart}) => {
-    const {header,headerNav,headerLeft,headerRight,headerCart,headerTitle,headerSubtitle,headerPrice} = styles;
+    const {header,headerNav,headerSup,headerLeft,headerRight,headerCart,headerTitle,headerSubtitle,headerPrice} = styles;
     const {cart,favourites} = useContext(CustomContext);
     return (
         <header className={header}>
@@ -31,9 +31,9 @@ const Header = ({isCart,setIsCart}) => {
                     </li>
                    <li><Link to='/favourites' style={{color:'9B9B9B'}}>
                        <AiOutlineHeart/>
-                       <sup style={{fontSize:'12px',marginBottom:'5px'}}>{favourites.length > 9? '9+' : favourites.length? favourites.length: ''}</sup>
+                       <sup className={headerSup}>{favourites.length > 9? '9+' : favourites.length? favourites.length: ''}</sup>
                    </Link></li>
-                  <li> <Link to='/purchases' style={{color:'9B9B9B'}}><BiUserCircle/></Link></li>
+                  <li> <Link to='/purchases' style={{color:'black'}}><BiUserCircle/></Link></li>
                 </ul>
             </nav>
         </header>

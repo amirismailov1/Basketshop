@@ -110,3 +110,23 @@
         width: calc(50% - 20px);
     }
 }
+
+@media (max-width: 576px) {
+    .title{
+        font-size: 25px;
+    }
+    .search{
+        height: 35px;
+    }
+}
+@media (max-width: 426px) {
+    .card{
+        width: 100%;
+    }
+    .title{
+        margin-bottom: 5px;
+    }
+    .action{
+        flex-direction: column;
+    }
+}

@@ -15,6 +15,9 @@
 .sliderInfo{
     margin: 32px 17px 0 61px;
 }
+.sliderImg{
+    width: 100%;
+}
 .sliderTitle{
     font-style: normal;
     font-weight: 700;
@@ -58,4 +61,35 @@
 .sliderArrowIcon{
     font-size: 25px;
 
+}
+
+@media (max-width: 768px) {
+    .sliderTitle{
+        font-size: 40px;
+
+    }
+    .sliderContent{
+        flex-direction: column;
+    }
+}
+@media (max-width: 375px) {
+    .sliderTitle{
+        font-size: 33px;
+        line-height: 35px;
+
+    }}
+@media (max-width: 325px) {
+    .sliderTitle{
+        font-size: 24px;
+        line-height: 31px;
+
+    }
+.sliderLeft{
+    padding: 9px 0 29px 0;
+}
+.sliderBtn{
+    height: 40px;
+    padding: 0 33px;
+    font-size: 13px;
+}
 }

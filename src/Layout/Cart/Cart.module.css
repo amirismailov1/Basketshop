@@ -10,6 +10,7 @@
     justify-content: flex-end;
     align-items:flex-start;
 
+
 }
 .cart{
     max-width: 385px;
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 
 }
 .cartTitle{
@@ -188,4 +190,14 @@
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+}
+@media (max-width: 576px) {
+    .cart{
+        max-width: 300px;
+    }
+}
+@media (max-width: 426px) {
+    .cart{
+        max-width: 500px;
+    }
 }

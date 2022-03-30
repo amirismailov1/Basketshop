@@ -45,3 +45,17 @@ display: flex;
     font-size: 14px;
     color: #9D9D9D;
 }
+.headerSup{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+@media (max-width: 576px) {
+    .headerNav{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .header{
+        padding-bottom: 29px;
+    }
+
+}

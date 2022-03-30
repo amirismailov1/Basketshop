@@ -137,3 +137,8 @@ background: white;
         width: calc(50% - 20px);
     }
 }
+@media (max-width: 426px) {
+    .card{
+        width: 100%;
+    }
+}
