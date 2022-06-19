@@ -75,12 +75,6 @@
       "imageUrl": "sneakers/4.jpg"
     },
     {
-      "id": 1,
-      "title": "Мужские Кроссовки Nike Blazer Mid Suede",
-      "price": 12999,
-      "imageUrl": "sneakers/1.jpg"
-    },
-    {
       "id": 2,
       "title": "Мужские Кроссовки Nike Air Max 270",
       "price": 15600,
@@ -93,76 +87,5 @@
       "imageUrl": "sneakers/8.jpg"
     }
   ],
-  "orders": [
-    {
-      "name": "Amir",
-      "tel": "996550213535",
-      "city": "bISHKEK",
-      "street": "Shoppkova",
-      "info": "",
-      "pay": "Наличными",
-      "money": "34000",
-      "check": true,
-      "order": [
-        {
-          "id": 2,
-          "title": "Мужские Кроссовки Nike Air Max 270",
-          "price": 15600,
-          "imageUrl": "sneakers/2.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Мужские Кроссовки Nike Blazer Mid Suede White",
-          "price": 8499,
-          "imageUrl": "sneakers/3.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Кроссовки Puma X Aka Boku Future Rider",
-          "price": 8999,
-          "imageUrl": "sneakers/4.jpg"
-        }
-      ],
-      "price": 33098,
-      "nds": 1655,
-      "change": 902,
-      "date": "30.03.2022",
-      "id": 1
-    },
-    {
-      "name": "Amir",
-      "tel": "996550213535",
-      "city": "BIshkek",
-      "street": "shopokova",
-      "info": "sadds",
-      "pay": "Наличными",
-      "money": "40000",
-      "check": true,
-      "order": [
-        {
-          "id": 1,
-          "title": "Мужские Кроссовки Nike Blazer Mid Suede",
-          "price": 12999,
-          "imageUrl": "sneakers/1.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Мужские Кроссовки Nike Air Max 270",
-          "price": 15600,
-          "imageUrl": "sneakers/2.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Мужские Кроссовки Nike Blazer Mid Suede White",
-          "price": 8499,
-          "imageUrl": "sneakers/3.jpg"
-        }
-      ],
-      "price": 37098,
-      "nds": 1855,
-      "change": 2902,
-      "date": "30.03.2022",
-      "id": 2
-    }
-  ]
+  "orders": []
 }
